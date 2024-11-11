@@ -5,6 +5,7 @@ import Message from './export_learn.jsx';
 import Garage from './props.jsx';
 import Football from './events.jsx';
 import List from './list.jsx';
+import Keys from './keys.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Garage/>
     <Football/>
     <List/>
+    <Keys/>
   </StrictMode>,
 );

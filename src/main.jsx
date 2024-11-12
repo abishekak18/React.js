@@ -6,6 +6,7 @@ import Garage from './props.jsx';
 import Football from './events.jsx';
 import List from './list.jsx';
 import Keys from './keys.jsx';
+import Favclr from './use_effect.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <Football/>
     <List/>
     <Keys/>
+    <Favclr/>
   </StrictMode>,
 );

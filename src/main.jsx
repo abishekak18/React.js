@@ -8,6 +8,7 @@ import List from './list.jsx';
 import Keys from './keys.jsx';
 import Favclr from './use_state.jsx';
 import Count from './usestate_task.jsx';
+import USEEFFECT from './use_effect.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')).render(
     <Keys/>
     <Favclr/>
     <Count/>
+    <USEEFFECT/>
   </StrictMode>,
 );

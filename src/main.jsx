@@ -9,16 +9,18 @@ import Keys from './keys.jsx';
 import Favclr from './use_state.jsx';
 import Count from './usestate_task.jsx';
 import USEEFFECT from './use_effect.jsx';
+import Usecontent from './use_context.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Message />
+    {/* <Message />
     <Garage/>
     <Football/>
     <List/>
     <Keys/>
     <Favclr/>
     <Count/>
-    <USEEFFECT/>
+    <USEEFFECT/> */}
+    <Usecontent/>
   </StrictMode>,
 );

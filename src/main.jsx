@@ -11,6 +11,7 @@ import Count from './usestate_task.jsx';
 import USEEFFECT from './use_effect.jsx';
 import Usecontent from './use_context.jsx';
 import Useref from './use_ref.jsx';
+import Usereducer from './use_reducer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,8 +22,9 @@ createRoot(document.getElementById('root')).render(
     <Keys/>
     <Favclr/>
     <Count/>
-    <USEEFFECT/> */}
+    <USEEFFECT/>
     <Usecontent/>
-    <Useref/>
+    <Useref/> */}
+    <Usereducer/>
   </StrictMode>,
 );

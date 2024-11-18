@@ -14,6 +14,7 @@ import Useref from './use_ref.jsx';
 import Usereducer from './use_reducer.jsx';
 import Usecallback from './use_callback.jsx';
 import Todo from './Todo.jsx';
+import Usememo from './use_memo.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,8 +28,9 @@ createRoot(document.getElementById('root')).render(
     <USEEFFECT/>
     <Usecontent/>
     <Useref/> 
-    <Usereducer/>*/}
+    <Usereducer/>
     <Usecallback/>
-    <Todo/>
+    <Todo/>*/}
+    <Usememo/>
   </StrictMode>,
 );
